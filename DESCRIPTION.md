@@ -38,5 +38,5 @@ The software's author recommends using the 32-bit binary, due to its universal c
 
 For future upgrade operations, consider opting into Chocolatey's `useRememberedArgumentsForUpgrades` feature to avoid having to pass the same arguments with each upgrade:
 ```
-choco feature enable -n=useRememberedArgumentsForUpgrades
+choco feature enable --name=useRememberedArgumentsForUpgrades
 ```
