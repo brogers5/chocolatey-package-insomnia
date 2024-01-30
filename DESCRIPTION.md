@@ -1,13 +1,7 @@
 
 ---
-### [choco://insomnia](choco://insomnia)
-To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://community.chocolatey.org/packages/choco-protocol-support)
 
----
-
----
-
-### Looking for the .NET version? Check out the [insomnia-dotnet](https://community.chocolatey.org/packages/insomnia-dotnet) package!
+### Looking for the .NET version? Check out the [insomnia-dotnet](https://community.chocolatey.org/packages/insomnia-dotnet) package
 
 ---
 
