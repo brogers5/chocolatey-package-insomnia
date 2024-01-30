@@ -17,7 +17,7 @@ function global:au_BeforeUpdate ($Package) {
     Import-Module $seleniumModuleName
 
     $startUrl = "https://web.archive.org/save/$($Latest.Url32)"
-    Write-Host "Starting Selenium at $startUrl"
+    Write-Output "Starting Selenium at $startUrl"
     $seleniumDriver = Start-SeFirefox -StartURL $startUrl -Headless
     $Latest.ArchivedURL = $seleniumDriver.Url
     $seleniumDriver.Dispose()

@@ -6,12 +6,12 @@ $nuspecFileRelativePath = Join-Path -Path $currentPath -ChildPath 'insomnia.nusp
 $version = [Version] $nuspec.package.metadata.version
 
 $global:Latest = @{
-    Url32 = 'https://web.archive.org/web/20220925163946/https://dlaa.me/Samples/Insomnia/Insomnia.zip'
+    Url32   = 'https://web.archive.org/web/20220925163946/https://dlaa.me/Samples/Insomnia/Insomnia.zip'
     Version = $version
 }
 
-Write-Host 'Downloading...'
+Write-Output 'Downloading...'
 Get-RemoteFiles -Purge -NoSuffix
 
-Write-Host 'Creating package...'
+Write-Output 'Creating package...'
 choco pack $nuspecFileRelativePath
