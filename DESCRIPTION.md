@@ -26,12 +26,14 @@ But what about those times when the computer is doing something useful and the r
 **Aside:** To be clear, the *display* can still go to sleep and power off - it's just sleep for the *computer* that is blocked. Similarly, if you *tell* the machine to go to sleep by hitting the power button, it will still do so.
 
 ## Package Parameters
+
 * `/NoShim` - Opt out of creating a GUI shim.
 * `/NoDesktopShortcut` - Opt out of creating a Desktop shortcut.
 * `/NoProgramsShortcut` - Opt out of creating a Programs shortcut in your Start Menu.
 * `/Start` - Automatically start Insomnia after installation completes.
 
 ## Package Notes
+
 The software's author recommends using the 32-bit binary, due to its universal compatibility with modern consumer versions of Windows and consuming the fewest system resources. However, the package will default to consuming the 64-bit binary on a 64-bit OS. If you'd prefer to adopt the author's recommendation, be sure to use the `--forcex86` switch when installing.
 
 ---
